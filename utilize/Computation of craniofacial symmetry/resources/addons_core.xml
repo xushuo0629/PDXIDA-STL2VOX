@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>Computation of craniofacial symmetry</label>
+  <version>1.0.0</version>
+  <type>Toolbox</type>
+  <identifier>f93e125d-c2c6-48a7-af8b-d0f46a54d252</identifier>
+  <summary>Computation of 3D symmetry plane of a triangulated model</summary>
+  <description>This function provides an implementation of the algorithm propose by "M Pinheiro, X Ma, MJ Fagan, GT McIntyre, P Lin, G Sivamurthy, PA Mossey - A 3D cephalometric protocol for the accurate quantification of the craniofacial symmetry and facial growth", published in May 2019 in the Journal of Biological Engineering.
+
+This function uses pre-existing submission sources for the ICP method provided by Jakob Wilm and that can be found in:
+http://mathworks.com/matlabcentral/fileexchange/27804-iterative-closest-point
+
+And the stlTools provided by Pau MicÃ³ for STL input and output that can be found in:
+http://mathworks.com/matlabcentral/fileexchange/51200-stltools</description>
+  <createdBy name="Manuel Pinheiro"/>
+  <image>resources/screenshot.png</image>
+</addonCore>
